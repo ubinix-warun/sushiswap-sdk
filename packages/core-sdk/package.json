@@ -1,6 +1,6 @@
 {
-  "name": "@sushiswap/core-sdk",
-  "version": "1.0.0-canary.90",
+  "name": "sushiswap-sdk-nervos",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
