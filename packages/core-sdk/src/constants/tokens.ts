@@ -170,4 +170,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.FUSE]: new Token(ChainId.FUSE, SUSHI_ADDRESS[ChainId.FUSE], 18, 'SUSHI', 'SushiToken'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, SUSHI_ADDRESS[ChainId.TELOS], 18, 'SUSHI', 'SushiToken'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.NERVOS_TESTNET]: new Token(ChainId.NERVOS_TESTNET, SUSHI_ADDRESS[ChainId.NERVOS_TESTNET], 18, 'SUSHI', 'SushiToken'),
 }

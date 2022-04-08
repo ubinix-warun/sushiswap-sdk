@@ -144,6 +144,7 @@ export const DAI_ADDRESS: AddressMap = {
   // [ChainId.TELOS]: '',
   [ChainId.FUSE]: '0x94Ba7A27c7A95863d1bdC7645AC2951E0cca06bA',
   [ChainId.MOONBEAM]: '0xc234A67a4F840E61adE794be47de455361b52413',
+  [ChainId.NERVOS_TESTNET]: '0xc234A67a4F840E61adE794be47de455361b52413',
 }
 
 export const USDT_ADDRESS: AddressMap = {
