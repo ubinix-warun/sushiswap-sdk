@@ -30,4 +30,5 @@ export enum ChainKey {
   XDAI = 'xdai',
   MOONBEAM = 'moonbeam',
   NERVOS_TESTNET = 'nervos-testnet',
+  HARDHAT = 'hardhat',
 }

@@ -22,6 +22,7 @@ export const USDC: TokenMap = {
   [ChainId.TELOS]: new Token(ChainId.TELOS, USDC_ADDRESS[ChainId.TELOS], 6, 'USDC', 'USD Coin'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, USDC_ADDRESS[ChainId.MOONBEAM], 6, 'USDC', 'USD Coin'),
   [ChainId.NERVOS_TESTNET]: new Token(ChainId.NERVOS_TESTNET, USDC_ADDRESS[ChainId.NERVOS_TESTNET], 6, 'USDC', 'USD Coin'),
+  [ChainId.HARDHAT]: new Token(ChainId.HARDHAT, USDC_ADDRESS[ChainId.HARDHAT], 6, 'USDC', 'USD Coin'),
 }
 
 export const USD: TokenMap = {
@@ -148,6 +149,13 @@ export const WNATIVE: TokenMap = {
     'WETH',
     'Wrapped Ether'
   ),
+  [ChainId.HARDHAT]: new Token(
+    ChainId.HARDHAT,
+    WNATIVE_ADDRESS[ChainId.HARDHAT],
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -171,4 +179,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.TELOS]: new Token(ChainId.TELOS, SUSHI_ADDRESS[ChainId.TELOS], 18, 'SUSHI', 'SushiToken'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken'),
   [ChainId.NERVOS_TESTNET]: new Token(ChainId.NERVOS_TESTNET, SUSHI_ADDRESS[ChainId.NERVOS_TESTNET], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.HARDHAT]: new Token(ChainId.HARDHAT, SUSHI_ADDRESS[ChainId.HARDHAT], 18, 'SUSHI', 'SushiToken'),
 }
