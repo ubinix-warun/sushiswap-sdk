@@ -51,4 +51,5 @@ export const NATIVE: NativeMap = {
   [ChainId.TELOS]: Telos.onChain(ChainId.TELOS),
   [ChainId.MOONBEAM]: Glmr.onChain(ChainId.MOONBEAM),
   [ChainId.NERVOS_TESTNET]: Ckb.onChain(ChainId.NERVOS_TESTNET),
+  [ChainId.HARDHAT]: Ether.onChain(ChainId.HARDHAT),
 }
