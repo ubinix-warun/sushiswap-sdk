@@ -1,0 +1,21 @@
+{
+    "name": "NT ERC20 Action",
+    "timestamp": "2022-04-11T19:38:38.162Z",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "patch": 0
+    },
+    "tags": {},
+    "logoURI": "ipfs://QmXsbxYZrdZrgqDMv37BaNmwsoG79uCk4ic8iYB9Nqaw4J",
+    "keywords": ["defi"],
+    "tokens": [
+      {
+        "chainId": 33,
+        "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+        "name": "SushiToken",
+        "symbol": "SUSHI",
+        "decimals": 18
+      }
+    ]
+  }
